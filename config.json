@@ -1,0 +1,65 @@
+{
+    "GLOBAL_RL": {
+        "ID": "GLOBAL",
+        "RATELIMIT": {
+            "REVERSE_PROXIES": 2,
+            "MAX_LIMIT": 40,
+            "WINDOW_SIZE": 1,
+            "PATH": "/",
+            "SKIP_FAILED_REQUESTS": false
+        }
+    },
+    "NATIVE_CLIENT": true,
+    "DEBUG": true,
+    "evmchains": [
+        {
+            "ID": "DEVNET",
+            "NAME": "Devnet (C-Chain)",
+            "TOKEN": "AVAX",
+            "RPC": "http://13.233.198.139:9658/ext/bc/C/rpc",
+            "CHAINID": 43112,
+            "EXPLORER": "https://testnet.snowtrace.io",
+            "IMAGE": "https://glacier-api.avax.network/proxy/chain-assets/main/chains/43113/chain-logo.png",
+            "MAX_PRIORITY_FEE": "10000000000",
+            "MAX_FEE": "100000000000",
+            "DRIP_AMOUNT": 2,
+            "DECIMALS": 18,
+            "RECALIBRATE": 30,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            }
+        }
+    ],
+    "erc20tokens": [
+        {
+            "ID": "USDCC",
+            "HOSTID": "C",
+            "NAME": "USDC (Circle)",
+            "TOKEN": "USDC",
+            "IMAGE": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png",
+            "CONTRACTADDRESS": "0x5425890298aed601595a70ab815c96711a31bc65",
+            "DRIP_AMOUNT": 1,
+            "GASLIMIT": "100000",
+            "DECIMALS": 6,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            }
+        },
+        {
+            "ID": "WAVAXC",
+            "HOSTID": "C",
+            "NAME": "Wrapped AVAX",
+            "TOKEN": "WAVAX",
+            "CONTRACTADDRESS": "0xd00ae08403B9bbb9124bB305C09058E32C39A48c",
+            "DRIP_AMOUNT": 2,
+            "GASLIMIT": "150000",
+            "DECIMALS": 18,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            }
+        }
+    ]
+}

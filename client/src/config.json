@@ -1,0 +1,11 @@
+{
+    "banner": "/banner.webp",
+    "apiBaseEndpointProduction": "/api/",
+    "apiBaseEndpointDevelopment": "http://localhost:8000/api/",
+    "apiTimeout": 40000,
+    "CAPTCHA": {
+        "siteKey": "6LcQ71goAAAAAKO2y5rsvUNYiBKQGmnJrOVedJ-o",
+        "v2siteKey": "6LcR_VgoAAAAAI04k0DsNU3plFMHjAUs9cgHvHH_", 
+        "action": "faucetdrip"
+    }
+}
