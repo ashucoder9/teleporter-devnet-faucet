@@ -29,12 +29,60 @@
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
             }
+        },
+        {
+            "ID": "A",
+            "NAME": "Subnet A",
+            "TOKEN": "TEST",
+            "RPC": "http://13.233.198.139:9658/ext/bc/RjxBN1Pfxg6QWbTdL7fYj9FF2cLSCQKWuSzkXjuCKtURbYJop/rpc",
+            "CHAINID": 68430,
+            "EXPLORER": "https://subnets-test.avax.network/amplify",
+            "IMAGE": "https://images.ctfassets.net/gcj8jwzm6086/5fZAVhKA9gMyf6p5pRt0pV/bc1f2b3e2f4e7413602f6b868df81546/Screenshot_2023-07-27_at_10.17.25_AM_-_Cameron_Schultz.png",
+            "MAX_PRIORITY_FEE": "2000000000",
+            "MAX_FEE": "100000000000",
+            "DRIP_AMOUNT": 2,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            }
+        },
+        {
+            "ID": "B",
+            "NAME": "Subnet B",
+            "TOKEN": "TEST",
+            "RPC": "http://13.233.198.139:9658/ext/bc/2cH8e4oTU9Dyxq5vMevZEUp1Ebd2DcfVnpvNoXoYi25PJkFD8q/rpc",
+            "CHAINID": 68431,
+            "EXPLORER": "https://subnets-test.avax.network/bulletin",
+            "IMAGE": "https://images.ctfassets.net/gcj8jwzm6086/5B7Vfj3t6r3ZqlEyyAaKRI/da8ec29ddfdf7eaacd3298c01f9c798e/Screenshot_2023-07-27_at_10.17.35_AM_-_Cameron_Schultz.png",
+            "MAX_PRIORITY_FEE": "2000000000",
+            "MAX_FEE": "100000000000",
+            "DRIP_AMOUNT": 2,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            }
+        },
+        {
+            "ID": "C",
+            "NAME": "Subnet C",
+            "TOKEN": "TEST",
+            "RPC": "http://13.233.198.139:9658/ext/bc/whaspgcuqSKgrDriBm4mMC7mRAsHPRyEMkBhp2ycfmYZxaeNu/rpc",
+            "CHAINID": 68432,
+            "EXPLORER": "https://subnets-test.avax.network/conduit",
+            "IMAGE": "https://images.ctfassets.net/gcj8jwzm6086/IeLUEqVDIv4npUjEIOkSB/7d37730f211ff6449a29103c5f22b463/Screenshot_2023-07-27_at_10.17.43_AM_-_Cameron_Schultz.png",
+            "MAX_PRIORITY_FEE": "2000000000",
+            "MAX_FEE": "100000000000",
+            "DRIP_AMOUNT": 2,
+            "RATELIMIT": {
+                "MAX_LIMIT": 1,
+                "WINDOW_SIZE": 1440
+            }
         }
     ],
     "erc20tokens": [
         {
             "ID": "USDCC",
-            "HOSTID": "C",
+            "HOSTID": "CX",
             "NAME": "USDC (Circle)",
             "TOKEN": "USDC",
             "IMAGE": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png",
@@ -49,7 +97,7 @@
         },
         {
             "ID": "WAVAXC",
-            "HOSTID": "C",
+            "HOSTID": "CX",
             "NAME": "Wrapped AVAX",
             "TOKEN": "WAVAX",
             "CONTRACTADDRESS": "0xd00ae08403B9bbb9124bB305C09058E32C39A48c",
