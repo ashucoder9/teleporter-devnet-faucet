@@ -36,13 +36,6 @@ if (NATIVE_CLIENT) {
     app.use(express.static(path.join(__dirname, "client")))
 }
 
-new RateLimiter(app, [GLOBAL_RL])
-
-new RateLimiter(app, [
-    ...evmchains,
-    ...erc20tokens
-])
-
 // address rate limiter
 new RateLimiter(app, [
     ...evmchains,

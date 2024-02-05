@@ -29,11 +29,6 @@ app.use(middlewares_1.parseBody);
 if (config_json_1.NATIVE_CLIENT) {
     app.use(express_1.default.static(path_1.default.join(__dirname, "client")));
 }
-new middlewares_1.RateLimiter(app, [config_json_1.GLOBAL_RL]);
-new middlewares_1.RateLimiter(app, [
-    ...config_json_1.evmchains,
-    ...config_json_1.erc20tokens
-]);
 // address rate limiter
 new middlewares_1.RateLimiter(app, [
     ...config_json_1.evmchains,
