@@ -2,7 +2,7 @@
     "GLOBAL_RL": {
         "ID": "GLOBAL",
         "RATELIMIT": {
-            "REVERSE_PROXIES": 2,
+            "REVERSE_PROXIES": 4,
             "MAX_LIMIT": 40,
             "WINDOW_SIZE": 1,
             "PATH": "/",
@@ -13,8 +13,8 @@
     "DEBUG": true,
     "evmchains": [
         {
-            "ID": "DEVNET",
-            "NAME": "DEVNET",
+            "ID": "DEVNET C-CHAIN",
+            "NAME": "DEVNET C-CHAIN",
             "TOKEN": "AVAX",
             "RPC": "https://teleporter.theworkpc.com/ext/bc/C/rpc",
             "CHAINID": 43112,
@@ -27,7 +27,7 @@
             "RECALIBRATE": 30,
             "RATELIMIT": {
                 "MAX_LIMIT": 1,
-                "WINDOW_SIZE": 1440
+                "WINDOW_SIZE": 5
             }
         },
         {
@@ -43,7 +43,7 @@
             "DRIP_AMOUNT": 5,
             "RATELIMIT": {
                 "MAX_LIMIT": 1,
-                "WINDOW_SIZE": 1440
+                "WINDOW_SIZE": 5
             }
         },
         {
@@ -59,7 +59,7 @@
             "DRIP_AMOUNT": 5,
             "RATELIMIT": {
                 "MAX_LIMIT": 1,
-                "WINDOW_SIZE": 1440
+                "WINDOW_SIZE": 5
             }
         },
         {
@@ -75,7 +75,7 @@
             "DRIP_AMOUNT": 5,
             "RATELIMIT": {
                 "MAX_LIMIT": 1,
-                "WINDOW_SIZE": 1440
+                "WINDOW_SIZE": 5
             }
         }
     ],
