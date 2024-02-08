@@ -13,8 +13,8 @@
     "DEBUG": true,
     "evmchains": [
         {
-            "ID": "DEVNET",
-            "NAME": "DEVNET",
+            "ID": "DEVNET C-CHAIN",
+            "NAME": "DEVNET C-CHAIN",
             "TOKEN": "AVAX",
             "RPC": "https://teleporter.theworkpc.com/ext/bc/C/rpc",
             "CHAINID": 43112,
